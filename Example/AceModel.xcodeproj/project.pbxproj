@@ -9,18 +9,20 @@
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6DACC017FFFE0C12E1B61EEC /* Pods_AceModel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85636D81D508C40F01E62412 /* Pods_AceModel_Tests.framework */; };
+		9E199C161F9DFC800081ABE8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E199C151F9DFC800081ABE8 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E2BCCEC2334F283F0ADB05A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2E2BCCEC2334F283F0ADB05A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5E716F743C10537F48EFB06E /* Pods-AceModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceModel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AceModel_Tests/Pods-AceModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* AceModel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AceModel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D7B9700A4C6C1A176DC4C65 /* Pods-AceModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceModel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AceModel_Tests/Pods-AceModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		85636D81D508C40F01E62412 /* Pods_AceModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AceModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA5B82ED6CD4CB5452865E35 /* AceModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AceModel.podspec; path = ../AceModel.podspec; sourceTree = "<group>"; };
-		CE5D7EF35A09937FFD5D6FB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9E199C151F9DFC800081ABE8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BA5B82ED6CD4CB5452865E35 /* AceModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AceModel.podspec; path = ../AceModel.podspec; sourceTree = "<group>"; };
+		CE5D7EF35A09937FFD5D6FB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				9E199C151F9DFC800081ABE8 /* User.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -131,10 +134,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -223,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E199C161F9DFC800081ABE8 /* User.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

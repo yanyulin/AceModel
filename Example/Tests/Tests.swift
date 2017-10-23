@@ -19,6 +19,16 @@ class Tests: XCTestCase {
         XCTAssert(true, "Pass")
     }
     
+    func testAceModel() {
+        var user = User()
+        user.name = "张三"
+        
+        var dict: NSDictionary? = AceModel.aceModelToModel(inputModel: user)
+        
+        print(dict)
+    }
+    
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure() {
