@@ -20,12 +20,15 @@ class Tests: XCTestCase {
     }
     
     func testAceModel() {
-        var user = User()
+        let user = User()
         user.name = "张三"
+        /*
+        let dict: NSDictionary? = AceModel.aceModelToModel(inputModel: user, outputModel: NSDictionary())
+        print(dict ?? "")
+        */
         
-        var dict: NSDictionary? = AceModel.aceModelToModel(inputModel: user)
-        
-        print(dict)
+        let str: String? = AceModel.aceModelToModel(inputModel: user, outputModel: nil)!
+        print(str ?? "")
     }
     
     
